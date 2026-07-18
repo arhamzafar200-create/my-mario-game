@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChromaQuest Platformer - Adventure Game</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/ui.css">
+    <link rel="stylesheet" href="styles/mobile.css">
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script>
+</head>
+<body>
+    <div id="game-container"></div>
+    <div id="ui-container"></div>
+    
+    <!-- Utility Scripts -->
+    <script src="scripts/constants.js"></script>
+    <script src="scripts/utils/AssetManager.js"></script>
+    <script src="scripts/utils/SaveManager.js"></script>
+    <script src="scripts/utils/AudioManager.js"></script>
+    <script src="scripts/utils/ParticleManager.js"></script>
+    <script src="scripts/utils/AnimationManager.js"></script>
+    <script src="scripts/utils/LevelManager.js"></script>
+    
+    <!-- Entity Scripts -->
+    <script src="scripts/entities/Player.js"></script>
+    <script src="scripts/entities/Enemy.js"></script>
+    <script src="scripts/entities/WalkingEnemy.js"></script>
+    <script src="scripts/entities/FlyingEnemy.js"></script>
+    <script src="scripts/entities/JumpingEnemy.js"></script>
+    <script src="scripts/entities/Boss.js"></script>
+    <script src="scripts/entities/Collectible.js"></script>
+    <script src="scripts/entities/Platform.js"></script>
+    <script src="scripts/entities/Hazard.js"></script>
+    <script src="scripts/entities/ProjectileLaser.js"></script>
+    <script src="scripts/entities/PowerUp.js"></script>
+    
+    <!-- UI Scripts -->
+    <script src="scripts/ui/HUD.js"></script>
+    <script src="scripts/ui/Menu.js"></script>
+    <script src="scripts/ui/MobileUI.js"></script>
+    <script src="scripts/ui/PauseMenu.js"></script>
+    <script src="scripts/ui/GameOverScreen.js"></script>
+    <script src="scripts/ui/VictoryScreen.js"></script>
+    <script src="scripts/ui/LevelSelector.js"></script>
+    <script src="scripts/ui/SettingsMenu.js"></script>
+    <script src="scripts/ui/AchievementSystem.js"></script>
+    
+    <!-- Scene Scripts -->
+    <script src="scripts/scenes/BootScene.js"></script>
+    <script src="scripts/scenes/MenuScene.js"></script>
+    <script src="scripts/scenes/LevelScene.js"></script>
+    <script src="scripts/scenes/GameOverScene.js"></script>
+    <script src="scripts/scenes/VictoryScene.js"></script>
+    <script src="scripts/scenes/LevelSelectScene.js"></script>
+    <script src="scripts/scenes/SettingsScene.js"></script>
+    
+    <!-- Main Game Script -->
+    <script src="scripts/game.js"></script>
+</body>
+</html>
